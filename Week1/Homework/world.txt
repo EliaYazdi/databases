@@ -1,0 +1,59 @@
+mysql> show databases
+    -> ^C
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| performance_schema |
+| sys                |
+| userdb             |
+| world              |
++--------------------+
+6 rows in set (0.04 sec)
+
+mysql> use world;
+Database changed
+mysql> show tables;
++-----------------+
+| Tables_in_world |
++-----------------+
+| city            |
+| country         |
++-----------------+
+2 rows in set (0.04 sec)
+
+mysql> select * from city;
++------+------------+
+| id   | Name       |
++------+------------+
+|    1 | Stockholm  |
+|    2 | Copenhagen |
+|    3 | Oslo       |
+|    4 | Helsinki   |
+|    5 | Berlin     |
+|    6 | Londen     |
+|    7 | Paris      |
+|    8 | Vienna     |
+|    9 | Bern       |
+|   10 | Rome       |
++------+------------+
+10 rows in set (0.04 sec)
+
+mysql> select * from country;
++----+-------------+
+| id | Name        |
++----+-------------+
+|  1 | Sweden      |
+|  2 | Denmark     |
+|  3 | Norway      |
+|  4 | Finland     |
+|  5 | Germany     |
+|  6 | England     |
+|  7 | France      |
+|  8 | Austria     |
+|  9 | Switzerland |
+| 10 | Italy       |
++----+-------------+
+10 rows in set (0.02 sec)
