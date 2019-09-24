@@ -9,7 +9,7 @@ examples / live coding (creating a transaction, committing and rollback-ing).
 
 ## Pre-Class Preparation
 - Install MySQL using the following [official docs](https://dev.mysql.com/downloads/mysql/)
--- preferably 5.7, there's currently some issues with 8.0 
+-- **5.7**, there's currently some issues with 8.0 
 - Install MySQL Workbench (graphical client, optional)
 **Make a note of the root password either given to you or set by you during the installation**
 
@@ -24,7 +24,7 @@ This setup assumes MySQL version 5.7.
 - Windows users should use **Microsoft MySQL Command Line** client.
 - Linux and MAC users should use **gnome-terminal** and **Terminal** respectively. 
 
-**Microsoft MySQL Command Line** client gives you a **msql>** prompt after typing in your root password.
+**Microsoft MySQL Command Line** client gives you a **mysql>** prompt after typing in your root password.
 Note that this password is the one you used for root user of the mysql.
 Linux and MAC users can execute `/usr/local/mysql/bin/mysql -uroot -p` and then type the password.
    For this go more smoothly, you can add the path to your mysql-binary to your 'PATH' environment variable, 

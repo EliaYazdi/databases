@@ -31,5 +31,5 @@ then query (using select statements) the **new_world** database to answer follow
     choose "Import from self-contained file", and browse to the Week1/new_world.sql-file
     click "Start import"
 
-Homework should at least be handed in as a text-file with the sql-queries and results (either in one big file, or as separate files)
-or, as preparation for the next steps of the course, by writing a node-JS program, that creates the database (step 1) and run the queries (step 2) 
+Homework should be handed in by writing a node-JS program, that creates the database (step 1) and run the queries (step 2)
+( or at least as a text-file with the sql-queries and results (either in one big file, or as separate files) )
